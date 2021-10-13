@@ -1,0 +1,65 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background:lightskyblue;
+}
+form{
+    background-color: gray;
+    width: 350px;
+    height: 580px;
+    padding: 75px 50px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    text-align: center;
+    margin-bottom: 45px;
+    color: white;
+    font: 40px;
+}
+.textbox{
+    border-bottom: 2px solid white;
+    position: relative;
+    margin: 35px 0;
+}
+.textboxinput{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+}
+.loginbtn{
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: lightskyblue;
+    background-size: 200%;
+    color: white;
+    font-size: 16px;
+
+}
+.loginbtn:hover{
+    background-position: right;
+    font-size: 18px;
+}
+.signup{
+    color: white;
+    margin-top: 45px;
+    text-align: center;
+}
+.signup a{
+    color: black;
+}
+
